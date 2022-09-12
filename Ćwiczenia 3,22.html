@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animowany baner</title>
+<style type="text/css">
+#baner {
+  width: 900px;
+  height: 150px;
+}
+</style>
+<script>
+window.onload = zmiana;
+var nr = 0;
+function zmiana() {
+  var obrazy = ['z1.jpg', 'z2.jpg', 'z3.jpg', 'z4.jpg', 'z5.jpg',  
+'z6.jpg']; // dodawanie obrazków do tablicy
+  nr++;
+  if (nr == obrazy.length) {
+    nr = 0;
+  }
+  document.getElementById('baner').src = obrazy[nr];
+  setTimeout(zmiana, 3000);
+}
+</script>
+</head>
+<body>
+<div>
+<img src="z1.jpg" id="baner" alt="Reklama">
+</div>
+</body>
+</html>

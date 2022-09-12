@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zmiana obrazka</title>
+</head>
+<body>
+<p>
+<img src="obraz1.png" alt="" id="widok">
+</p>
+<script>
+var obraz = document.getElementById('widok');
+obraz.onmouseover = function() {
+  this.src = 'obraz2.png';
+}
+obraz.onmouseout = function() {
+  this.src = 'obraz1.png';
+}
+</script>
+</body>
+</html>
