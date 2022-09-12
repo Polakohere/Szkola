@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Konstruktor</title>
+</head>
+<body>
+<h2>Ćwiczenie - Konstruktor</h2>
+<script>
+function Uczen(nazwisko, imie, wiek, klasa, sport) {
+this.nazwisko_u = nazwisko;
+this.imie_u = imie;
+this.wiek_u = wiek;
+this.klasa_u = klasa;
+this.sport_u = sport;
+this.wypisz = function() {
+document.write(this.nazwisko_u + ' ' + this.imie_u + ' '
++ this.klasa_u + "<br>")
+}
+}
+var uczen1 = new Uczen("Nowak", "Karol", 12, "5b", "tenis");
+var uczen2 = new Uczen("Polak", "Anna", 13, "6a", "pływanie");
+var uczen3 = new Uczen("Czaja", "Maciej", 13, "6a", "siatkówka");
+var uczen4 = new Uczen("Malak", "Julia", 12, "5a", "gimnastyka");
+var uczen5 = new Uczen("Wojak", "Michał", 13, "6b", "pływanie");
+uczen1.wypisz();
+uczen2.wypisz();
+uczen3.wypisz();
+uczen4.wypisz();
+uczen5.wypisz();
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Obiekt - literał</title>
+</head>
+<body>
+<h2>Ćwiczenie - Tworzenie obiektu za pomocą literału</h2>
+<script>
+var pojazd = {
+marka: "Ford",
+model: "Mustang",
+rok_produkcji: "2020",
+przebieg: 15000,
+wyswietlDane: function() {
+document.write(this.marka + ' ' + this.model + ', rok produkcji: '
++ this.rok_produkcji + "<br>");
+}
+};
+pojazd.wyswietlDane();
+pojazd.numer_rej = "WA34789";
+pojazd.wyswietlDetal = function() {
+document.write('Marka: ' + this.marka + ', numer rejestracyjny: '
++ this.numer_rej);
+}
+pojazd.wyswietlDetal();
+</script>
+</body>
+</html>
