@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Przepływający tekst</title>
+<meta charset="UTF-8">
+<style type="text/css">
+#napis {
+  position: absolute;
+  background-color: #c0cfc0;
+  width: 350px;
+  float: left;
+  font-size: 18pt;
+  font-family: Arial; 
+}
+</style>
+<script>
+function animacja() {
+  var blok = document.getElementById('napis');
+  if (parseInt(blok.style.left) < 50) {
+    blok.style.left = "500px";
+  } else {
+    blok.style.left = (parseInt(blok.style.left) - 3) + "px";
+  }
+}
+window.setInterval(animacja, 100);
+</script>
+</head>
+<body>
+<div id="napis" style="left: 500px;">JavaScript - język skryptowy :-) 
+</div>
+</body>
+</html>

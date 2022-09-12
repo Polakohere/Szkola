@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Baner reklamowy</title>
+<meta charset="UTF-8">
+<style type="text/css">
+#tekst {
+  font-size: 18pt;
+  font-family: Arial;
+  text-align: center;
+}
+</style>
+<script>
+czas = 200;
+znak_p = 1;
+function przewin() {
+  window.setTimeout(przewin, czas);
+  var nap = document.napis.text.value;
+  document.napis.text.value = nap.substring(znak_p) 
++ nap.substring(0, znak_p);
+}
+przewin()
+</script>
+</head>
+<body>
+<form name="napis">
+<input id="tekst" name="text" size=60 value="   Najlepsze strony  
+internetowe.   Zostań z nami!  To jest to!   ">
+</form>
+</body>
+</html>
