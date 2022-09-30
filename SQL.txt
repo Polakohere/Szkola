@@ -1,0 +1,9 @@
+
+
+Solucje:
+
+USE sakila;
+Challenge No. 1
+SELECT DISTINCT rating FROM film; 
+Challenge No. 2
+SELECT description FROM `film` WHERE title = "Outlaw Hanky"; 
