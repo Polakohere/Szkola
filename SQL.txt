@@ -7,3 +7,5 @@ Challenge No. 1
 SELECT DISTINCT rating FROM film; 
 Challenge No. 2
 SELECT description FROM `film` WHERE title = "Outlaw Hanky"; 
+Challenge No. 3
+SELECT phone,address FROM `address` WHERE address = "259 Ipoh Drive"; 
