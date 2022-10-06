@@ -10,7 +10,7 @@ if (!isset($_POST['wykszt'])) {
 } else {
  echo "Wykształcenie: " . trim($_POST['wykszt']) . "<br>";
 }
-echo "<p>Znajomość języków:</p>";
+echo "<p>Rozszerzony język</p>";
 if (!empty($_POST['języki'])) {
  echo "<ul>";
  foreach ($_POST['języki'] as $wartosc) {
