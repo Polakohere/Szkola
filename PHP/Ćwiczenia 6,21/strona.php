@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION['log'])) {
-  header('location: loguj.php');
-  exit;
+header('location: loguj.php');
+exit;
 }
 ?>
 <!DOCTYPE HTML>
