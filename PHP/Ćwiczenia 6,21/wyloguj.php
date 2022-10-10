@@ -1,13 +1,13 @@
 <?php
 session_start();
 if (isset($_SESSION['log'])) {
-  unset($_SESSION['log']);
+unset($_SESSION['log']);
 } else {
-  header('location: loguj.php');
-  exit;
-  }
+header('location: loguj.php');
+exit;
+}
 $s = session_destroy();
-?>  
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
