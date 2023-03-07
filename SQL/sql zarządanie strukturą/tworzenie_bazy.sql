@@ -1,0 +1,4 @@
+CREATE DATABASE databasename;
+
+
+CREATE DATABASE testDB;
