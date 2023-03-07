@@ -1,0 +1,1 @@
+SELECT akwen, wojewodztwo FROM lowisko WHERE rodzaj BETWEEN 2 AND 3 
