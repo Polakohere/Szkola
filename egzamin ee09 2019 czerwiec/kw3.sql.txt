@@ -1,1 +1,0 @@
-SELECT nazwa FROM ryby, okres_ochronny WHERE ryby.id=okres_ochronny.Ryby_id AND okres_ochronny.wymiary_ochronny = 0 
