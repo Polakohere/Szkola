@@ -1,0 +1,56 @@
+body, html 
+{
+	margin: 0 auto;
+	padding: 0; 
+}
+
+header
+{
+	background-color: #5A9089;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	height: 100px;
+}
+
+nav
+{
+	background-color: #BAD2CF;
+	width: 55%;
+	height: 600px;
+	float: left;
+}
+
+main
+{
+	background-color: #88AFAA;
+	width: 45%;
+	height: 600px;
+	float: left;
+}
+
+footer
+{
+	clear: left;
+	background-color: #5A9089;
+	color: white;
+	text-align: right;
+}
+
+table, th
+{
+	border: 1px dotted green; 
+	width: 400px;
+	margin: 15px;
+	text-align: center;
+}
+
+ol
+{
+	list-style-type: circle; 
+}
+
+img
+{
+	padding: 25px;
+}

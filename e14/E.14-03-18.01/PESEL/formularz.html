@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styl3.css">
+	<title>Dodaj ogłoszenie</title>
+</head>
+<body>
+	<header>
+		<h2>Portal Ogłoszeniowy</h2>
+	</header>
+	<nav>
+		<h2>Kategorie</h2>
+		<ul>
+			<li>Książki</li>
+			<li>Muzyka</li>
+			<li>Filmy</li>
+		</ul>
+		<h2>Podkategorie</h2>
+		<ul>
+			<li>Romans</li>
+			<li>Biografia</li>
+			<li>Kryminał</li>
+			<li>Komiks</li>
+		</ul>
+		<img src="ksiazki.jpg" alt="Dodaj ogłoszenie"><br>
+		<a href="kwerendy.txt">Pobierz kwerendy</a>
+	</nav>
+	<main>
+		<h2>Anna Kowalska – dodanie ogłoszenia</h2>
+		<form method="post" action="dodajRekord.php">
+			<label>Kategoria:<br><input type="number" name="kat"><br></label>
+			<label>Podkategoria:<br><input type="number" name="pkat"><br></label>
+			<label>Tytuł:<br><input type="text" name="title"><br></label>
+			<label>Treść:<br><textarea name="tr" rows="10" cols="40"></textarea></label><br>
+			<input class="in" type="reset" name="cls" value="WYCZYŚĆ">
+			<input class="in" type="submit" name="send" value="ZAPISZ">
+		</form>
+	</main>
+	<footer>
+		Portal ogłoszeniowy opracował:
+	</footer>
+</body>
+</html>

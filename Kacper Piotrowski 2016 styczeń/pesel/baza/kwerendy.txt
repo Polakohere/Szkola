@@ -1,0 +1,11 @@
+a.
+SELECT Tytul FROM ksiazki WHERE Wydawnictwo = 'Ossolineum';
+
+b.
+SELECT nazwisko, tytul FROM autorzy INNER JOIN ksiazki ON autorzy.IDAutor=ksiazki.AutorID; 
+
+c.
+SELECT IDEgzemplarz, Tytul FROM egzemplarze, ksiazki WHERE egzemplarze.KsiazkaID = ksiazki.IDKsiazki AND DoWypozyczenia=0;
+
+d.
+INSERT INTO autorzy VALUES (3,'Adam', 'Asnyk'); 

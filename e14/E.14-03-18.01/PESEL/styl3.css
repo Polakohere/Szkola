@@ -1,0 +1,62 @@
+body, html
+{
+	margin: 0 auto;
+	padding: 0;
+}
+
+header
+{
+	background-color: #00839C;
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+	height: 80px;
+}
+
+nav
+{
+	background-color: #20D9FB;
+	width: 30%;
+	height: 750px;
+	float: left;	
+}
+
+main
+{
+	background-color: #00BDE2;
+	width: 70%;
+	height: 750px;
+	float: left;
+}
+
+footer
+{
+	background-color: #00839C;
+	color: white;
+	text-align: right;
+	clear: left;
+}
+
+img
+{
+	padding: 30px;
+	border: 2px solid blue;
+}
+
+a:hover
+{	
+	color: white;
+}
+
+a
+{
+	color:black;
+}
+
+.in
+{
+	background-color: blue;
+	color: white;
+	border: 0px;
+	margin: 20px;
+}

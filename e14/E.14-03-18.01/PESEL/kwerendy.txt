@@ -1,0 +1,4 @@
+1. INSERT INTO ogloszenie VALUES ("", 1, 2, 0 ,"Celine Dion", "Sprzedam CD piosenkarki"); 
+2. SELECT tytul, tresc FROM ogloszenie WHERE kategoria = 1 AND podkategoria = 13; 
+3. CREATE USER andrzej@localhost IDENTIFIED BY "xsw23"; 
+4. GRANT SELECT, ALTER on ogloszenie to andrzej@localhost; 

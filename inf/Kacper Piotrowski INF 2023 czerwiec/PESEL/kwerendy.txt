@@ -1,0 +1,4 @@
+1. SELECT nazwa FROM towary WHERE promocja = 1; 
+2. SELECT cena FROM towary WHERE id = 10; 
+3. 
+4. ALTER TABLE dostawcy ADD COLUMN informacje TEXT;
